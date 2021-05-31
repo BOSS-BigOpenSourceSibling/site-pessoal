@@ -22,7 +22,7 @@ title: Seu nome
 email: seu@email.com
 description: >- # this means to ignore newlines until "baseurl:"
   Escreva uma pequena descrição sobre você!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/site-pessoal" # the subpath of your site, e.g. /blog
 url: "https://boss-bigopensourcesibling.github.io/site-pessoal" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
