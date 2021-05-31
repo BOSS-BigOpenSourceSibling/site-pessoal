@@ -1,0 +1,4 @@
+home:
+  heading: "Seu nome!"
+  subheading: "Uma pequena descrição sobre você :D"
+  banner: "../assets/images/banners/home.jpeg"
