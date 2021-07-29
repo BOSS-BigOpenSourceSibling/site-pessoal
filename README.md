@@ -82,6 +82,8 @@ Vá ao seu repositório. Clique na aba `Settings`. No submenu, selecione `Secret
 
 Clique no botão `New repository secret`. O nome que você vai preencher precisa ser exatamente `GH_TOKEN`. No campo **Value**, cole o token que você acabou de gerar e salve suas alterações.
 
+O deploy do seu site é feito usando o Github Actions, e você precisa habilitar essa função no seu repositório para que ela funcione. Então, no seu repositório, procure o submenu escrito `Actions`. Habilite essa opção.
+
 #### Fazendo o seu commit!
 
 Reveja todos os arquivos alterados e revise quais você gostaria de adicionar:
@@ -110,4 +112,6 @@ Envie suas modificações para o Github:
 git push origin main
 ```
 
-Agora é só esperar! O Github vai rodar a integração e publicar sua página em alguns minutos. Você poderá encontrá-la se você for em `Settings`, clicar no submenu `Pages` e clicar no link onde você pode verr que o seu site está publicado.
+Agora é só esperar! O Github vai rodar a integração e publicar sua página em alguns minutos. Você poderá encontrá-la se você for em `Settings`, clicar no submenu `Pages` e clicar no link onde você pode ver que o seu site está publicado.
+
+> A Action do Github precisa de um commit para ser disparada. Se você habilitou a funcionalidade da Action depois que o commit foi feito, pode ser que você precise adicionar um novo commit.
